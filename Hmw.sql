@@ -9,7 +9,9 @@ CREATE TABLE employeeList (
 
 INSERT INTO employeeList(first_name, last_name, gender, age)
 VALUES ('Ivan', 'Ivanov','masc',25);
+INSERT INTO employeeList(first_name, last_name, gender, age)
 VALUES ('Marina','Sidorova','fem',54);
+INSERT INTO employeeList(first_name, last_name, gender, age)
 VALUES ('Petr','Sergeev','masc',34);
 
 SELECT * FROM employeeList;
